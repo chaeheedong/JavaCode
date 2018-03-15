@@ -1,4 +1,4 @@
-package api.string;
+package apiEx.string;
 
 public class StringTest03 {
 

@@ -1,4 +1,4 @@
-package callBy;
+package callByEx;
 
 public class CallByReferenceTest {
 

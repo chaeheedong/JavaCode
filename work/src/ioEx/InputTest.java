@@ -1,4 +1,4 @@
-package io;
+package ioEx;
 
 import java.io.InputStream;
 
@@ -9,7 +9,7 @@ public class InputTest {
 		// InputStream :: 표준입력장치 추상화한 class
 		InputStream inputStream = System.in;
 
-		System.out.println("입력을 기다립니다...");
+		System.out.print("입력을 기다립니다...");
 
 		try {
 
