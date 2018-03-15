@@ -70,7 +70,7 @@ class Old extends BusCharge {
 
 }// end of class
 
-public class Display {
+public class Display01 {
 
 	public static void main(String[] args) {
 
