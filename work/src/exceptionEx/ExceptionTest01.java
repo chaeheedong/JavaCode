@@ -1,5 +1,7 @@
 package exceptionEx;
 
+import java.util.Scanner;
+
 public class ExceptionTest01 {
 
 	// Field
@@ -22,15 +24,18 @@ public class ExceptionTest01 {
 	public void avg(int z) {
 		System.out.println("2==> avg 시작");
 		// z = 0 인 경우 불능
-		System.out.println("2==> 합 : " + avg);
+		avg = sum / z;
+		System.out.println("2==> 평균 : " + avg);
 		System.out.println("2==> avg 끝");
 	}
 
 	public static void main(String[] args) {
 
-		int i = Integer.parseInt(args[0]);
-		int j = Integer.parseInt(args[1]);
-		int k = Integer.parseInt(args[2]);
+		Scanner in = new Scanner(System.in);
+
+		int i = in.nextInt();
+		int j = in.nextInt();
+		int k = in.nextInt();
 
 		ExceptionTest01 et = new ExceptionTest01();
 		et.sum(i, j);
