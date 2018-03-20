@@ -9,7 +9,7 @@ final class TopSecret04 {
 
 	// Constructor
 	// ==> Access modifier를 통한 객체생성불가(private Constructor을 사용한 이유를 이해)
-	public TopSecret04() {
+	private TopSecret04() {
 	}
 
 	// Method

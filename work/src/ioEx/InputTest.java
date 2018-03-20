@@ -7,6 +7,7 @@ public class InputTest {
 	public static void main(String[] args) {
 
 		// InputStream :: 표준입력장치 추상화한 class
+
 		InputStream inputStream = System.in;
 
 		System.out.print("입력을 기다립니다...");

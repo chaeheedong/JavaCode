@@ -20,7 +20,7 @@ public class ObjectTest {
 
 	// method(instance method)
 	public void printInstanceInt() {
-		System.out.println("D > : i " + i);
+		System.out.println("D > : i = " + i);
 	}
 
 	// static method(OR class method)
