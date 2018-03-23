@@ -1,5 +1,7 @@
 package exceptionEx;
 
+import java.util.Scanner;
+
 public class ExceptionTest04 {
 
 	// Field
@@ -28,9 +30,11 @@ public class ExceptionTest04 {
 
 	public static void main(String[] args) {
 
-		int i = Integer.parseInt(args[0]);
-		int j = Integer.parseInt(args[1]);
-		int k = Integer.parseInt(args[2]);
+		Scanner in = new Scanner(System.in);
+		
+		int i = in.nextInt();
+		int j = in.nextInt();
+		int k = in.nextInt();
 
 		ExceptionTest04 et = new ExceptionTest04();
 		et.sum(i, j);
