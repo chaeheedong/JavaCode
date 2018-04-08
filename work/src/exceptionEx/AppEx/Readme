@@ -1,0 +1,21 @@
+
+
+
+	사용자 정의 예외 클래스 선언
+	
+	사용자 정의 예외 클래스는 컴파일러가 체크하는 일반 예외로 선언할 수도 있고,
+	컴파일러가 체크하지 않는 실행 예외로 선언할 수도 있다.
+	
+	일반 예외로 선언할 경우 Exception을 상속,
+	실행 예외로 선언할 경우 RuntimeException을 상속하면 된다.
+	
+	생성자는 두개를 선언하는 것이 일반적인데
+	하나는 매개변수가 없는 기본 생성자이고,
+	다른 하나는 예외 발생 원인 ( 예외 메시지 ) 을 전달하기 위해 String 타입의 매개변수를 갖는 생성자이다.
+	
+	public class XXXException extends [ Exception | RuntimeException ] {
+	
+		public XXXException(){}
+		public XXXException(String message){ super(message); }
+	
+	}
